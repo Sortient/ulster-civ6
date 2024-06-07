@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	703365922	Pause_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Pause_Music_CIVILIZATION_SORTIENT_ULSTER	
+	1735127124	Start_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Start_Music_CIVILIZATION_SORTIENT_ULSTER	
+	1886798597	Resume_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Resume_Music_CIVILIZATION_SORTIENT_ULSTER	
+	3024670602	Stop_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Stop_Music_CIVILIZATION_SORTIENT_ULSTER	
+	3424373784	Stop_Leader_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Stop_Leader_Music_CIVILIZATION_SORTIENT_ULSTER	
+	3925039724	Play_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Play_Music_CIVILIZATION_SORTIENT_ULSTER	
+	4008385518	Play_Leader_Music_CIVILIZATION_SORTIENT_ULSTER			\Default Work Unit\Music\Play_Leader_Music_CIVILIZATION_SORTIENT_ULSTER	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	51783639	Modern1	E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\SFX\Modern1_59C9A42B.wem	51783639.wem	\Interactive Music Hierarchy\Default Work Unit\UlsterCiv6ModMusic\Ulster_Industrial_Era_Music\Ulster_Industrial_Era_Leader_Music1\Modern1	
+	295486842	Industrial1	E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\SFX\Industrial1_59C9A42B.wem	295486842.wem	\Interactive Music Hierarchy\Default Work Unit\UlsterCiv6ModMusic\Ulster_Modern_Era_Music\Ulster_Modern_Era_Leader_Music1\Industrial1	
+	484999858	Medieval1	E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\SFX\Medieval1_59C9A42B.wem	484999858.wem	\Interactive Music Hierarchy\Default Work Unit\UlsterCiv6ModMusic\Ulster_Ancient_Era_Music\Ulster_Ancient_Era_Leader_Music1\Medieval1	
+	526386516	Ancient1	E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\SFX\Ancient1_59C9A42B.wem	526386516.wem	\Interactive Music Hierarchy\Default Work Unit\UlsterCiv6ModMusic\Ulster_Medieval_Era_Music\Ulster_Medieval_Era_Leader_Music1\Ancient1	
+	699844646	Diplo	E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\SFX\Diplo_59C9A42B.wem	699844646.wem	\Interactive Music Hierarchy\Default Work Unit\UlsterCiv6ModMusic\Ulster_Diplomatic_Music\Ulster_Diplomatic_Leader_Music\Diplo	
+

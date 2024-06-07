@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\</ProjectRoot>
+		<SourceFilesRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="51783639" Language="SFX">
+			<ShortName>Modern1.wav</ShortName>
+			<Path>SFX\Modern1_6848314D.wem</Path>
+		</File>
+		<File Id="295486842" Language="SFX">
+			<ShortName>Industrial1.wav</ShortName>
+			<Path>SFX\Industrial1_6848314D.wem</Path>
+		</File>
+		<File Id="484999858" Language="SFX">
+			<ShortName>Medieval1.wav</ShortName>
+			<Path>SFX\Medieval1_6848314D.wem</Path>
+		</File>
+		<File Id="526386516" Language="SFX">
+			<ShortName>Ancient1.wav</ShortName>
+			<Path>SFX\Ancient1_6848314D.wem</Path>
+		</File>
+		<File Id="699844646" Language="SFX">
+			<ShortName>Diplo.wav</ShortName>
+			<Path>SFX\Diplo_6848314D.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3480873003" Language="SFX">
+			<ShortName>Sortient_Ulster</ShortName>
+			<Path>Sortient_Ulster.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1323143616" Name="Pause_Music_SORTIENT_ULSTER"/>
+				<Event Id="1733749156" Name="Play_Leader_Music_SORTIENT_ULSTER"/>
+				<Event Id="443656630" Name="Play_Music_SORTIENT_ULSTER"/>
+				<Event Id="3953372461" Name="Resume_Music_SORTIENT_ULSTER"/>
+				<Event Id="440826942" Name="Start_Music_SORTIENT_ULSTER"/>
+				<Event Id="2472110298" Name="Stop_Leader_Music_SORTIENT_ULSTER"/>
+				<Event Id="2376929320" Name="Stop_Music_SORTIENT_ULSTER"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="51783639"/>
+				<File Id="295486842"/>
+				<File Id="484999858"/>
+				<File Id="526386516"/>
+				<File Id="699844646"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="701899141" Language="SFX">
+					<ShortName>Medieval2.wav</ShortName>
+					<Path>SFX\Medieval2_6848314D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

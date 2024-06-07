@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\</ProjectRoot>
+		<SourceFilesRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\UlsterCiv6Mod\Music\UlsterCiv6Mod\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="51783639" Language="SFX">
+			<ShortName>Modern1.wav</ShortName>
+			<Path>SFX\Modern1_59C9A42B.wem</Path>
+		</File>
+		<File Id="295486842" Language="SFX">
+			<ShortName>Industrial1.wav</ShortName>
+			<Path>SFX\Industrial1_59C9A42B.wem</Path>
+		</File>
+		<File Id="484999858" Language="SFX">
+			<ShortName>Medieval1.wav</ShortName>
+			<Path>SFX\Medieval1_59C9A42B.wem</Path>
+		</File>
+		<File Id="526386516" Language="SFX">
+			<ShortName>Ancient1.wav</ShortName>
+			<Path>SFX\Ancient1_59C9A42B.wem</Path>
+		</File>
+		<File Id="699844646" Language="SFX">
+			<ShortName>Diplo.wav</ShortName>
+			<Path>SFX\Diplo_59C9A42B.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161894303" Language="SFX">
+			<ShortName>Civilization_Sortient_Ulster</ShortName>
+			<Path>Civilization_Sortient_Ulster.bnk</Path>
+			<IncludedEvents>
+				<Event Id="703365922" Name="Pause_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="4008385518" Name="Play_Leader_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="3925039724" Name="Play_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="1886798597" Name="Resume_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="1735127124" Name="Start_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="3424373784" Name="Stop_Leader_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+				<Event Id="3024670602" Name="Stop_Music_CIVILIZATION_SORTIENT_ULSTER"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="51783639"/>
+				<File Id="295486842"/>
+				<File Id="484999858"/>
+				<File Id="526386516"/>
+				<File Id="699844646"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

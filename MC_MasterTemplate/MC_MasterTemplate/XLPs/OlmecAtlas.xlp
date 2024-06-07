@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_256"/>
+			<m_ObjectName text="ICON_JOHN_HUME_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_32"/>
+			<m_ObjectName text="ICON_JOHN_HUME_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_45"/>
+			<m_ObjectName text="ICON_JOHN_HUME_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_48"/>
+			<m_ObjectName text="ICON_JOHN_HUME_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_50"/>
+			<m_ObjectName text="ICON_JOHN_HUME_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_55"/>
+			<m_ObjectName text="ICON_JOHN_HUME_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_64"/>
+			<m_ObjectName text="ICON_JOHN_HUME_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOHN_HUME_80"/>
+			<m_ObjectName text="ICON_JOHN_HUME_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_200"/>
+			<m_ObjectName text="ICON_ULSTER_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_22"/>
+			<m_ObjectName text="ICON_ULSTER_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_256"/>
+			<m_ObjectName text="ICON_ULSTER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_30"/>
+			<m_ObjectName text="ICON_ULSTER_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_36"/>
+			<m_ObjectName text="ICON_ULSTER_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_44"/>
+			<m_ObjectName text="ICON_ULSTER_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_48"/>
+			<m_ObjectName text="ICON_ULSTER_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_50"/>
+			<m_ObjectName text="ICON_ULSTER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_64"/>
+			<m_ObjectName text="ICON_ULSTER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ULSTER_80"/>
+			<m_ObjectName text="ICON_ULSTER_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOHN_HUME_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_JOHN_HUME_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOHN_HUME_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JOHN_HUME_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SORTIENT_JOHN_HUME_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SORTIENT_JOHN_HUME_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill200"/>
+			<m_ObjectName text="LinenMill200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill256"/>
+			<m_ObjectName text="LinenMill256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill38"/>
+			<m_ObjectName text="LinenMill38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill40"/>
+			<m_ObjectName text="LinenMill40"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill50"/>
+			<m_ObjectName text="LinenMill50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMill80"/>
+			<m_ObjectName text="LinenMill80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LinenMillHistoricMoment"/>
+			<m_ObjectName text="LinenMillHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas200"/>
+			<m_ObjectName text="UlsterRiflesAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas22"/>
+			<m_ObjectName text="UlsterRiflesAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas256"/>
+			<m_ObjectName text="UlsterRiflesAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas32"/>
+			<m_ObjectName text="UlsterRiflesAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas38"/>
+			<m_ObjectName text="UlsterRiflesAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas50"/>
+			<m_ObjectName text="UlsterRiflesAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas70"/>
+			<m_ObjectName text="UlsterRiflesAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas80"/>
+			<m_ObjectName text="UlsterRiflesAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesAtlas95"/>
+			<m_ObjectName text="UlsterRiflesAtlas95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UlsterRiflesHistoricMoment"/>
+			<m_ObjectName text="UlsterRiflesHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SORTIENT_JOHN_HUME_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SORTIENT_JOHN_HUME_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SORTIENT_JOHN_HUME_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_SORTIENT_JOHN_HUME_DIPLO_BG"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
