@@ -13,8 +13,8 @@ VALUES
 
 	('en_US',	'LOC_TRAIT_CIVILIZATION_SORTIENT_LINENOPOLIS_NAME',				'Linenopolis'				),
 	('en_US',	'LOC_TRAIT_CIVILIZATION_SORTIENT_LINENOPOLIS_DESCRIPTION',	
-	'Holy Site buildings will yield an additional +2 [ICON_Production], alongside their usual [ICON_Faith] Faith.'	),
-
+	'Improved Luxury Resources provide +10% [ICON_PRODUCTION] Production to cities.'	),
+	--'Holy Site buildings will yield an additional +2 [ICON_Production], alongside their usual [ICON_Faith] Faith.'	),
 
 	('en_US',	'LOC_IMPROVEMENT_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
 	('en_US',	'LOC_IMPROVEMENT_ULSTER_LINEN_MILL_DESCRIPTION',
@@ -22,14 +22,13 @@ VALUES
 
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_DESCRIPTION',
-	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces.'	),
-
+	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces. International Trade Routes provide +2 [ICON_PRODUCTION] Production to Domestic trade routes and +4 [ICON_GOLD] Gold per luxury resource from the sender`s city.'	),
 
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_NAME',	'Ulster Rifles'	),
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_DESCRIPTION',	 
 	'Modern Era melee unit unique to Ulster. Easier to produce but higher maintenance than the Infantry, which it replaces. Provides +10 [ICON_Strength] Strength bonus when fighting in home territory during a [ICON_Glory_Golden_Age] Golden Age.'	),
 
-	('en_US',	'LOC_ABILITY_SORTIENT_ULSTER_RIFLES',  '+10 [ICON_Strength] Strength bonus when fighting in home territory during [ICON_Glory_Golden_Age] Golden Ages.'	),
+	('en_US',	'LOC_ABILITY_SORTIENT_ULSTER_RIFLES_DESCRIPTION',  '+10 [ICON_Strength] Strength bonus when fighting in home territory during [ICON_Glory_Golden_Age] Golden Ages.'	),
 
 
 	('en_US',	'LOC_NAMED_MOUNTAIN_MOURNES',				'Mourne Mountains'			),
@@ -53,6 +52,7 @@ VALUES
 	('en_US',	'LOC_NAMED_LAKE_LOUGH_NEAGH',				'Lough Erne'			),
 	('en_US',	'LOC_NAMED_LAKE_LOUGH_ERNE',				'Lough Neagh'			),
 	('en_US',	'LOC_NAMED_LAKE_LOUGH_FOYLE',				'Lough Foyle'			),
+	('en_US',	'LOC_NAMED_LAKE_CARLINGFORD_LOUGH',			'Carlingford Lough'		),
 
 	('en_US',	'LOC_NAMED_VOLCANO_CAVE_HILL',				'Cave Hill'				),
 	('en_US',	'LOC_NAMED_VOLCANO_SLIEVE_GULLION',			'Slieve Gullion'		),
@@ -78,7 +78,7 @@ VALUES
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_14',  'Larne'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_15',  'Limavady'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_16',  'Banbridge'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_17',  'Armagh'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_17',  'Portadown'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_18',  'Dungannon'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_19',  'Cookstown'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_20',  'Comber'),
