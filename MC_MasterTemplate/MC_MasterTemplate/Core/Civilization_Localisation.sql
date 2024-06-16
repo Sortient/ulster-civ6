@@ -13,7 +13,7 @@ VALUES
 
 	('en_US',	'LOC_TRAIT_CIVILIZATION_SORTIENT_LINENOPOLIS_NAME',				'Linenopolis'				),
 	('en_US',	'LOC_TRAIT_CIVILIZATION_SORTIENT_LINENOPOLIS_DESCRIPTION',	
-	'Improved Luxury Resources provide +10% [ICON_PRODUCTION] Production to cities.'	),
+	'Industrial Zones trigger a Culture Bomb. Luxury Resources provide +3 [ICON_Production] Production.'	),
 	--'Holy Site buildings will yield an additional +2 [ICON_Production], alongside their usual [ICON_Faith] Faith.'	),
 
 	('en_US',	'LOC_IMPROVEMENT_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
@@ -56,9 +56,14 @@ VALUES
 
 	('en_US',	'LOC_NAMED_VOLCANO_CAVE_HILL',				'Cave Hill'				),
 	('en_US',	'LOC_NAMED_VOLCANO_SLIEVE_GULLION',			'Slieve Gullion'		),
-	('en_US',	'LOC_NAMED_VOLCANO_MOUNT_SLEMISH',			'Mount Slemish'			),
+	('en_US',	'LOC_NAMED_VOLCANO_MOUNT_SLEMISH',			'Slieve Donard'			),
 	('en_US',	'LOC_NAMED_VOLCANO_BENBRADAGH',				'Benbradagh'			),
 	('en_US',	'LOC_NAMED_VOLCANO_BINEVENAGH',				'Binevenagh'			),
+
+	('en_US',	'LOC_NAMED_DESERT_CAUSEWAY_FLATS',				'Causeway Flats'				),
+	('en_US',	'LOC_NAMED_DESERT_STRANGFORD_SANDS',			'Strangford Sands'		),
+	('en_US',	'LOC_NAMED_DESERT_RATHLIN_DUNES',				'Rathlin Dunes'			),
+
 
 
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_1',  'Belfast'),
