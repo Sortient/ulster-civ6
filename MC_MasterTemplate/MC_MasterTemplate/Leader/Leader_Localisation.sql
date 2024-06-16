@@ -26,7 +26,7 @@ VALUES
 -----------------------------------------------	
 
 	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_NAME',				'Good Friday Agreement'	),
-	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'+5% [ICON_Science] Science and +5% [ICON_Culture] Culture in cities owned by John Hume for every religion present while at peace.'),
+	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'Cannot declare Holy Wars. +5% [ICON_Science] Science and +5% [ICON_Culture] Culture in cities owned by John Hume for every religion present.'),
 	--Immune to the Recruit Partisans espionage mission. Cannot declare Holy Wars or start Inquisitions.'	),
 
 	
@@ -34,8 +34,8 @@ VALUES
 -- Leader Agenda
 -----------------------------------------------	
 
-	('en_US',	'LOC_AGENDA_SORTIENT_JOHN_HUME_NAME',	'Seeker of Holy Lands'	),
-	('en_US',	'LOC_AGENDA_SORTIENT_JOHN_HUME_DESCRIPTION',	'Will explore the lands around him as much as possible. Respects those that commit efforts to science and culture, but dislikes those that do not recognise religion.'	),
+	('en_US',	'LOC_AGENDA_SORTIENT_JOHN_HUME_NAME',	'Strength in Diversity'	),
+	('en_US',	'LOC_AGENDA_SORTIENT_JOHN_HUME_DESCRIPTION',	'Respects those that allow multiple religions to flourish in their lands. Hates those who declare Holy Wars.'	),
 	
 	('en_US',	'LOC_DIPLO_KUDO_LEADER_SORTIENT_JOHN_HUME_REASON_ANY',	'(You have a high culture output and are progressing well with science.)'	),
 	('en_US',	'LOC_DIPLO_MODIFIER_SORTIENT_JOHN_HUME_HAPPY',	'Ku Po Ngbe recognises your artists and scholars. Let monuments be built for them in celebration!'	),
@@ -57,11 +57,11 @@ VALUES
 
 	-- First AI Line (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Approach, stranger. Nehua notoca Po Ngbe, Ku of the Olmec people. Nechpactia nimitzixmati. Know that we cultivate many lands and keep a watchful eye over the rolling hills and plains, far and wide.' ),
+	'Hello, I am John Hume. The road to peace is long and winding, but with understanding and dialogue, we can find our way together.' ),
 	
 	-- AI invitation to visit nearby City (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'We can help you navigate our territory and walk our grounds, wondering at the colossal monuments we built for our Gods. Will you give us the honour of your company?'	),
+	'We invite you to our nearby city, to discuss mutual approaches to peace over some of our famous Fifteens.'	),
 	
 	-- AI accepts human invitation (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SORTIENT_JOHN_HUME_ANY',
@@ -69,7 +69,7 @@ VALUES
 	
 	-- AI invitation to exchange Capital Information (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'How better to know a friend than to know his home? Will you indulge our tribesmen, for we will certainly welcome yours?'	),
+	'We will happily share information of our capital, if you will do likewise?'	),
 
 -----------------------------------------------
 -- Diplomacy Text: Greetings
@@ -77,11 +77,11 @@ VALUES
 
 	-- (HAPPY)
 	('en_US',	'LOC_DIPLO_GREETING_LEADER_SORTIENT_JOHN_HUME_HAPPY',
-	'Ahmo titonamiqui ye huehcauh. Many moons have circled since we last spoke. It is great to see you again, ikniutli.'	),
+	'It`s good to see you again. There`s much to be done together in the name of peace.'	),
 
 	-- (UNHAPPY)
 	('en_US',	'LOC_DIPLO_GREETING_LEADER_SORTIENT_JOHN_HUME_UNHAPPY',
-	'Tlein chiua tikneki? What makes you request me at this time?'	),
+	'We seem to have disagreements, but dialogue is the path to understanding. Let`s talk.'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Delegation
@@ -89,15 +89,15 @@ VALUES
 
 	-- AI Accepts (ANY)
 	('en_US',	'LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Your delegation is welcome into my lands, and shall be granted the utmost respect - though please respect our customs and our sacred sites.'	),
+	'I welcome your delegation with open arms. Let us share our cultures and find common ground.'	),
 	
 	-- AI Rejects (ANY)
 	('en_US',	'LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Our sacred lands are closed to visitors at this time.'	),
+	'I apologize, but circumstances prevent me from hosting your delegation at this time. Perhaps another time?'	),
 	
 	-- AI Requests (ANY)
 	('en_US',	'LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'We have prepared a delegation to visit your lands carrying the finest jade stone, Kunz axes and ornamental figurines crafted by our people. Consider these a gift.'	),
+	'I have sent a delegation to your lands, carrying some of our famous Fifteens along with the recipe for a delightful Ulster Fry. I hope you will receive them as appropriate.'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Open Borders
@@ -105,15 +105,15 @@ VALUES
 
 	-- AI accepts from human (ANY)	
 	('en_US',	'LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'The lands are under the watch of the Gods - there is no reason we cannot each use them.'	),
+	'Open borders are a sign of trust and friendship. Let our people mingle and our cultures enrich one another.'	),
 	
 	-- AI rejects from human (ANY)	
 	('en_US',	'LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Our people have a sacred bond with our lands. To open them to your people would be sacrilege.'	),
+	'I`m hesitant to open our borders fully, but perhaps we can find a compromise another time.'	),
 	
 	-- AI requests from human (ANY)	
 	('en_US',	'LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'God watches over the lands of the Olmec. Let our people share each other`s territory, such that our Gods can protect both our races.'	),
+	'Open borders would allow for greater understanding between our people. It`s a step towards a brighter future.'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Declare Friendship
@@ -121,23 +121,23 @@ VALUES
 
 	-- AI accepts from human (ANY)
 	('en_US',	'LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Tlauel kuali! The Olmec werejaguars stand ready to protect our own people and those of our trusted allies, such that you have proven yourself to be.'	),
+	'Friendship is a precious gift. Let us cherish it and work together for peace.'	),
 	
 	-- AI rejects from human (ANY)	
 	('en_US',	'LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Amo ipan inin kauitl. Our people are not ready to share such a close bond and friendship at this time.'	),
+	'Friendship is built on trust and mutual respect. We need more time to establish that foundation.'	),
 	
 	-- AI Requests friendship from human (ANY)	
 	('en_US',	'LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Kaua tehuantin maka se ixpolotl uikpa se ixpolotl. Even with God watching over our lands, one can never have too many allies. Let us announce to the world that our people share a happy and meaningful bond!'	),
+	'Let us declare our friendship to the world. Together, we can be a beacon of hope and understanding.'	),
 	
 	-- Human accepts AI requests, AI responds (ANY)	
 	('en_US',	'LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'With the Olmec gods as our witness: tlazohcamati. May this bond stay unbroken for many lifetimes.'	),
+	'Excellent!'	),
 	
 	-- Human rejects AI requests, AI responds (ANY)	
 	('en_US',	'LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'It is a shame that you shun the recognition of our friendship.'	),
+	'Thank you for your consideration. I believe peace is always possible, even if friendship isn`t immediate.'	),
 
 -----------------------------------------------
 -- Diplomacy Text: Alliance
@@ -145,7 +145,7 @@ VALUES
 
 	-- AI Requests an alliance from human (ANY)
 	('en_US',	'LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Together, we can be yet stronger in our claim to the lands we each possess. Let us show the world that the blood between our nations runs thicker than most, with an alliance to strengthen ourselves against all foes. What do you say?'	),
+	'An alliance between us would strengthen the cause of peace and tolerance. Let`s stand together against those who would sow division.'	),
 
 -----------------------------------------------
 -- Diplomacy Text: Kudos & Warnings
@@ -153,11 +153,11 @@ VALUES
 	
 	-- AI Kudos (ANY)
 	('en_US',	'LOC_DIPLO_KUDO_EXIT_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'The Olmec are impressed by your artistry and your commitment to learning. We hear stories of your educated revelry and long for the same.'	),
+	'Your commitment to peace and tolerance is inspiring. You are a model for all leaders.'	),
 	
 	-- AI Warnings (ANY)
 	('en_US',	'LOC_DIPLO_WARNING_EXIT_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'You rule without the recognition of a higher power. You believe this shows strength; but we know it as your weakness.'	),
+	'Be mindful of the path you`re on. Violence and intolerance only lead to suffering.'	),
 
 -----------------------------------------------
 -- Diplomacy Text: Troops Near Border
@@ -165,11 +165,11 @@ VALUES
 	
 	-- AI warns player for border troops (HAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SORTIENT_JOHN_HUME_HAPPY',
-	'Our citizens and our Gods keep watch over our lands. Your military presence has not gone unnoticed. I would ask you to keep your distance, for these lands are holy to the Olmec.'	),
+	'Your troop movements near our border are causing concern. Let us resolve this through dialogue, not force.'	),
 
 	-- AI warns player for border troops (UNHAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SORTIENT_JOHN_HUME_UNHAPPY',
-	'Our Gods do not look kindly upon your military. This is a desecration of our holy lands and I insist you to move back at once, or accept the swift consequence.'	),
+	'Your military presence is a provocation. Withdraw your troops and let us find a peaceful resolution.'	),
 	
 	-- AI accepts player's warning for border troops warning (HAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SORTIENT_JOHN_HUME_HAPPY',
@@ -189,11 +189,11 @@ VALUES
 	
 	-- AI warns player for settling too close (HAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_SORTIENT_JOHN_HUME_HAPPY',
-	'The land you have claimed is that of the Olmec. Please be mindful of where you locate your settlements in future.'	),
+	'Your settlement is close to our borders. Let us ensure we respect each other`s territory and sovereignty.'	),
 	
 	-- AI warns player for settling too close (UNHAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_SORTIENT_JOHN_HUME_UNHAPPY',
-	'Your settlement is within lands that are the right of the Olmec. I cannot promise that our people and Gods will tolerate this encroachment.'	),
+	'Your encroachment onto our lands is unacceptable. We must find a way to co-exist peacefully.'	),
 	
 	-- Positive AI response to human request (HAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SORTIENT_JOHN_HUME_HAPPY',
@@ -237,11 +237,11 @@ VALUES
 
 	-- Human denounce, AI responds
 	('en_US',	'LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'To declare yourself an enemy of the Olmec is to leave your fate to the Gods.'	),
+	'I am saddened by your words, but I will not be deterred from my pursuit of peace.'	),
 	
 	-- From AI
 	('en_US',	'LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'Our shamans have visions of your mikistli. The Olmec Gods press us to offer you as a sacrifice. (Denounces You)'	),
+	'Your actions have made it clear that you do not share my values of peace and tolerance. I cannot stand idly by. (Denounces You)'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Declarations of War
@@ -253,7 +253,7 @@ VALUES
 	
 	-- AI Declares War
 	('en_US',	'LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'The Gods have demanded the sacrifice of your people...and I agree with them. Inin kitosneki yaoyotl!'	), 
+	'I have exhausted all peaceful options. I must defend my people and their right to live in peace.'	), 
 
 -----------------------------------------------
 -- Diplomacy Text: Make Peace
@@ -311,7 +311,7 @@ VALUES
 	('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_SORTIENT_JOHN_HUME_CHAPTER_HISTORY_PARA_4',
 	'Hume`s political career spanned decades, during which he served as a Member of Parliament in both the British House of Commons and the European Parliament. His dedication to his constituents and his unwavering pursuit of peace and social justice left an indelible mark on Northern Ireland`s political landscape. Hume`s legacy extends beyond his political achievements, inspiring generations of activists and peacemakers.'),
 	('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_SORTIENT_JOHN_HUME_CHAPTER_HISTORY_PARA_5',
-	'John Hume`s death in 2020 marked the end of an era in Northern Irish politics, but his legacy lives on. Hume`s unwavering commitment to peace, dialogue, and reconciliation continues to inspire and guide the ongoing efforts to build a more just and equitable society in Northern Ireland. And, in a poll conducted by Irish national broadcaster RTÉ, John Hume was voted as the greatest Irishman who ever lived.'),
+	'John Hume`s death in 2020 marked the end of an era in Northern Irish politics, but his legacy lives on. Hume`s unwavering commitment to peace, dialogue, and reconciliation continues to inspire and guide the ongoing efforts to build a more just and equitable society in Northern Ireland. And, in a poll conducted by Irish national broadcaster RTï¿½, John Hume was voted as the greatest Irishman who ever lived.'),
 
 	('en_US',	'LOC_PEDIA_UNITS_PAGE_UNIT_SORTIENT_JOHN_HUME_UU_CHAPTER_HISTORY_PARA_1',  	
 	'The Royal Ulster Rifles, formed in 1921 from the Royal Irish Rifles, was a line infantry regiment of the British Army. With a history dating back to 1793, the regiment participated in various conflicts including both World Wars and the Korean War. The regiment recruited primarily from counties Antrim and Down, but also accepted volunteers from across Ireland. Following the partition of Ireland, it became the only remaining Irish infantry regiment within the British Army. In 1968, the Royal Ulster Rifles was amalgamated with other regiments to form the Royal Irish Rangers, and is part of the modern day Royal Irish Regiment. Today, the regiment`s legacy is preserved through museums and memorials that commemorate its service and sacrifices, most prominently outside Belfast City Hall.'	);
