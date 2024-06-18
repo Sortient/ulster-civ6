@@ -190,5 +190,5 @@ VALUES
 -----------------------------------------------
 
 	('en_US',	'LOC_PEDIA_UNITS_PAGE_UNIT_SORTIENT_ULSTER_UU_CHAPTER_HISTORY_PARA_1',  	
-	'The Olmecs first used warfare to expand trade and access to resources. Fighters from the Olmec city of San Lorenzo utilized obsidian-edged weapons. Sleight of hand and nimble of foot, they wore carved masks to intimidate their foes.'	);
+	'The Royal Ulster Rifles, formed in 1921 from the Royal Irish Rifles, were an infantry regiment of the British Army with a distinguished history spanning both World Wars and conflicts like the Korean War and Second Boer War. Known for their tenacity and professionalism, the Royal Ulster Rifles would go onto be amalgamated into the Royal Irish Rangers, a predecessor of the modern day Royal Irish Regiment. Today in Cambes-en-Plaine war cemetery, a number of Royal Ulster Rifles soldiers are buried who served in the Normandy campaign of WW2. Tens of thousands of soldiers from Northern Ireland and the Irish Free State fought alongside each other in the battle against Nazi Germany.'	);
 
