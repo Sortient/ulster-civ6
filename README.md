@@ -9,3 +9,4 @@ This is a repository for my mod, which adds John Hume as a leader of Northern Ir
 
 # Future Aspirations
 - Add a secondary leader - most likely Hugh O'Neill, Earl of Tyrone
+- Add loyalty flip overlay
