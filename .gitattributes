@@ -1,3 +1,4 @@
-* linguist-vendored
-*.lua linguist-vendored=false
-*.sql linguist-vendored=false
+*.lua linguist-detectable=true
+*.sql linguist-detectable=true
+*.xml linguist-detectable=true
+*.tex linguist-detectable=false
