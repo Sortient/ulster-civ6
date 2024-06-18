@@ -1,5 +1,3 @@
-
-
 INSERT INTO	Types
 		(Type,												Kind			)
 VALUES	('TRAIT_CIVILIZATION_SORTIENT_LINENOPOLIS',		'KIND_TRAIT'	);
