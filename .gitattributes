@@ -1,0 +1,2 @@
+* linguist-vendored
+*.lua *.sql linguist-vendored=false
