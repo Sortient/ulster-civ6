@@ -16,13 +16,10 @@ VALUES
 	'Industrial Zones trigger a Culture Bomb. Luxury Resources provide +3 [ICON_Production] Production.'	),
 	--'Holy Site buildings will yield an additional +2 [ICON_Production], alongside their usual [ICON_Faith] Faith.'	),
 
-	('en_US',	'LOC_IMPROVEMENT_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
-	('en_US',	'LOC_IMPROVEMENT_ULSTER_LINEN_MILL_DESCRIPTION',
-	'Industrial Era building unique to Ulster, which replaces the Factory. [NEWLINE][NEWLINE] +1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Population in the city. Additional [ICON_PRODUCTION] production when built in an Industrial Zone adjacent to a River.'	),
 
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_DESCRIPTION',
-	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces. International Trade Routes provide +2 [ICON_PRODUCTION] Production to Domestic trade routes and +4 [ICON_GOLD] Gold per luxury resource from the sender`s city.'	),
+	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces. +1 [ICON_ENGINEER] Great Engineer point. International Trade Routes from this city provide +0.5 [ICON_PRODUCTION] Production and +0.5 [ICON_GOLD] Gold per luxury resource owned by Ulster.'	),
 
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_NAME',	'Ulster Rifles'	),
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_DESCRIPTION',	 

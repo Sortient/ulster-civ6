@@ -26,7 +26,7 @@ VALUES
 -----------------------------------------------	
 
 	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_NAME',				'Good Friday Agreement'	),
-	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'Cannot declare Holy Wars. +5% [ICON_Science] Science and +5% [ICON_Culture] Culture in cities owned by John Hume for every religion present.'),
+	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'Cannot declare Holy Wars. +10% [ICON_Science] Science and +10% [ICON_Culture] Culture in cities owned by John Hume for every religion present that he has not founded.'),
 	--Immune to the Recruit Partisans espionage mission. Cannot declare Holy Wars or start Inquisitions.'	),
 
 	

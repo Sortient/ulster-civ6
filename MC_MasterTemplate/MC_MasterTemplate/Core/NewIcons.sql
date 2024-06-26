@@ -1,29 +1,3 @@
-/*
-	Civilization Icons
-
-	Authors: MC
-*/
-
------------------------------------------------
--- IconTextureAtlases
-
--- We use a single document to define all of our new ICON elements. This keeps things in one place and acts as a nice 'checklist' for every icon file we'll need to ensure exists.
-
--- Briefly, we'll explain what the IconTextureAtlases are. An 'atlas', in this context, is a series of graphics that all contain icons of a certain type, albeit in different sizes. In our example template, we have four different atlases: the CIVILIZATION, the LEADER, the UNIQUE UNIT and the UNIQUE INFRASTRUCTURE.
-
--- The definitions below illustrate how each is defined.
-
--- Name: This defines the name of the atlas. This is the element that is referenced in other parts of this document.
--- IconSize: Fairly self-explanatory, but this is the width (or height) of one icon (within the atlas) in pixels. All icons (game-wide) have square dimensions (1:1).
--- IconsPerRow: This defines the number of icons there are across the entire width of the atlas file. The total width of the DDS file should be equal to IconSize x IconsPerRow. If you are creating every icon as a separate file, the value here will always be 1.
--- IconsPerColumn: This defines the number of icons there are along the entire height of the atlas file. The total height of the DDS file should be equal to IconSize x IconsPerColumn. If you are creating every icon as a separate file, the value here will always be 1.
--- Filename: Again, fairly self-explanatory. This should be the complete, case-sensitive name of the DDS file that pertains to the graphic for that entry. All files referenced here must be located in the root of the Textures folder.
-
--- A quick note on the ICON_ATLAS_SORTIENT_WEREJAGUAR atlas. I've left this in here, configured in this way, to illustrate how to use multi-icon atlases. In this example, each UlsterRiflesAtlasXXX.dds file has two icons - the Unique Unit icon and Unique Unit portrait. We'll describe further down how we differentiate to the game which should be used for which function through the IconDefinitions section.
-
--- Please note: I have included a sample configuration for the ICON_ATLAS_COLOSSAL_HEAD but you may note that this is not referenced in the IconDefinitions. The ICON_COLOSSAL_HEAD exists in the base-game and therefore this is just to illustrate which icon-sizes are required for an Improvement.
------------------------------------------------
-
 INSERT INTO IconTextureAtlases	
 		(Name,									IconSize,	IconsPerRow,	IconsPerColumn,		Filename					)
 VALUES	('ICON_ATLAS_SORTIENT_ULSTER',					22,	 		1,				1,					'ICON_ULSTER_22.dds'			),
@@ -62,14 +36,6 @@ VALUES	('ICON_ATLAS_SORTIENT_ULSTER',					22,	 		1,				1,					'ICON_ULSTER_22.dd
 		('ICON_ATLAS_LINEN_MILL',			80,			1,				1,					'LinenMill80.dds'		),
 		('ICON_ATLAS_LINEN_MILL',			200,		1,				1,					'LinenMill200.dds'		),
 		('ICON_ATLAS_LINEN_MILL',			256,		1,				1,					'LinenMill256.dds'		);
-
------------------------------------------------
--- IconDefinitions
-
--- With the IconTextureAtlases defined, we now tie each Atlas to a specific icon-type.
-
--- The icon Name is defined in the table below and the Atlas tells the game where to pull the graphic from. The Index field directs the game to the right portion of the file, should there be more than one icon. The Index is an integer value in the form of an array - starting from 0, with icons numbered from left-to-right, row-by-row. In this way, we use the ICON_ATLAS_SORTIENT_ULSTER_RIFLES Atlas, which has two icons in a single file, to drive the display of two distinct in-game icons.
------------------------------------------------
 
 INSERT INTO IconDefinitions
 		(Name,														Atlas,									'Index'					)
