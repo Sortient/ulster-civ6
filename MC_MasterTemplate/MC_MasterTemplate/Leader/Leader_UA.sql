@@ -83,7 +83,7 @@ VALUES	('LEADER_SORTIENT_JOHN_HUME',	'TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMEN
 			SELECT DISTINCT
 					'SORTIENT_GOOD_FRIDAY_AGREEMENT_'||YieldShort||'_'||Binary,
 					'Amount',
-					Binary * 5
+					Binary * 10
 			FROM Good_Friday_Agreement_Yields CROSS JOIN Good_Friday_Agreement_Binary;
 	----------------------------------------------------------
 	-- REQUIREMENTS

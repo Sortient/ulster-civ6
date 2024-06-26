@@ -82,6 +82,12 @@ print("   Running Sortient_Ulster_LeaderAbility.lua")
     -- GetNumberOfReligiousFollowersInCity
     -- Based off sukritact's al-Andalus
     -----------------------------------------
+      function IsReligionFoundedByPlayer(iPlayer, iReligion)
+        local pReligion = iPlayer:GetReligion()
+
+        return pReligion == iReligion
+      end
+
       function GetNumberOfReligiousFollowersInCity(iPlayer, iCity)
         print("Calculating religions in city")
         local pCity = iPlayer
@@ -103,7 +109,8 @@ print("   Running Sortient_Ulster_LeaderAbility.lua")
           local iNumFollowers = pCityReligion:GetNumFollowers(iReligion)
 
           if iNumFollowers > 0 then
-            iNumReligionsInCity = iNumReligionsInCity + 1
+            if not IsReligionFoundedByPlayer(iPlayer, iReligion) then
+              iNumReligionsInCity = iNumReligionsInCity + 1
           end
         end
 
