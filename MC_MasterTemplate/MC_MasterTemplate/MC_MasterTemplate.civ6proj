@@ -26,8 +26,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Keniisus_Civ_Template</AssemblyName>
     <RootNamespace>Keniisus_Civ_Template</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Leader/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateDatabase id="NewAction" /></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UU.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File><File>Core/Civilization_UB.sql</File><File>Core/Armagh.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File><File>Core/Civilization_ModSupport.sql</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="NewAction"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateAudio id="NewAction"><File>Platforms/Windows/Audio/Sortient_Ulster.bnk</File><File>Platforms/Windows/Audio/Sortient_Ulster.ini</File><File>Platforms/Windows/Audio/Sortient_Ulster.txt</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio><AddGameplayScripts id="NewAction"><File>Lua/Sortient_Ulster_LeaderAbility.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Leader/Leader_Config.sql</File><File>HughONeill/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File><File>HughONeill/Leader_Localisation.sql</File><File>HughONeill/Hugh_Rosetta.xml</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File><File>HughONeill/Leader_Colors.sql</File></UpdateColors><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateDatabase id="NewAction" /></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UU.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File><File>Core/Civilization_UB.sql</File><File>Core/Armagh.sql</File><File>HughONeill/Leader_Agenda.sql</File><File>HughONeill/Leader_UA.sql</File><File>HughONeill/Leader_Core.sql</File><File>HughONeill/Leader_Screens.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File><File>HughONeill/Leader_Colors.sql</File></UpdateColors><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File><File>Core/Civilization_ModSupport.sql</File><File>HughONeill/Leader_Localisation.sql</File><File>HughONeill/Hugh_Rosetta.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File><File>XLPs/OlmecAtlas.xlp</File></UpdateArt><UpdateIcons id="NewAction"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateAudio id="NewAction"><File>Platforms/Windows/Audio/Sortient_Ulster.bnk</File><File>Platforms/Windows/Audio/Sortient_Ulster.ini</File><File>Platforms/Windows/Audio/Sortient_Ulster.txt</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio><AddGameplayScripts id="NewAction"><File>Lua/Sortient_Ulster_LeaderAbility.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion1"><GameModeInUse><GameCoreInUse>Expansion1</GameCoreInUse></GameModeInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -38,6 +38,7 @@
     <Folder Include="Core" />
     <Folder Include="Leader" />
     <Folder Include="Lua\" />
+    <Folder Include="HughONeill" />
     <Folder Include="Platforms\" />
     <Folder Include="Platforms\Windows\" />
     <Folder Include="Platforms\Windows\Audio\" />
@@ -83,6 +84,30 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\NewIcons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Hugh_Rosetta.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Core.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_Screens.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HughONeill\Leader_UA.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Leader\Leader_Agenda.sql">
@@ -143,6 +168,75 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_HUGH_ONEILL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_HUGH_ONEILL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_HUGH_ONEILL_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HUGH_ONEILL_DIPLO_BG.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HUGH_ONEILL_DIPLO_BG.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HUGH_ONEILL_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HUGH_ONEILL_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UlsterAtlas.xlp">
       <SubType>Content</SubType>
     </Content>
     <XLP Include="Textures\FALLBACK_NEUTRAL_JOHN_HUME.dds">
@@ -614,9 +708,6 @@
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="Textures\WerejaguarHistoricMoment.tex">
-      <SubType>Content</SubType>
-    </XLP>
-    <XLP Include="XLPs\OlmecAtlas.xlp">
       <SubType>Content</SubType>
     </XLP>
     <None Include="_Read_Me_First\0. Introduction.txt">

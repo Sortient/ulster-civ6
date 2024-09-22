@@ -76,6 +76,7 @@ print("   Running Sortient_Ulster_LeaderAbility.lua")
           --print(sProperty, iBit)
           pObject:SetProperty(sProperty, iBit)
         end
+        print("Binary Map for ", iNum, ": ", tBinaryMap)
       end
 
     -----------------------------------------
@@ -83,9 +84,15 @@ print("   Running Sortient_Ulster_LeaderAbility.lua")
     -- Based off sukritact's al-Andalus
     -----------------------------------------
       function IsReligionFoundedByPlayer(iPlayer, iReligion)
-        local pReligion = iPlayer:GetReligion()
-
-        return pReligion == iReligion
+        local pPlayer = Players[iPlayer]
+        if not pPlayer then
+          print("Player not found!")
+          return false
+        end
+        local pReligion = pPlayer:GetReligion()
+        local religionToCheck = pReligion:GetReligionInMajorityOfCities()
+        print("GFA - religion to check = ", religionToCheck, ", player religion = ", pReligion)
+        return religionToCheck == iReligion
       end
 
       function GetNumberOfReligiousFollowersInCity(iPlayer, iCity)
@@ -110,10 +117,14 @@ print("   Running Sortient_Ulster_LeaderAbility.lua")
 
           if iNumFollowers > 0 then
             if not IsReligionFoundedByPlayer(iPlayer, iReligion) then
+              print("GFA - religion ", iReligion, " is a foreign religion.")
+              
               iNumReligionsInCity = iNumReligionsInCity + 1
+            end
           end
         end
 
+        print("GFA - Number of foreign religions in ", pCity:GetName(), ": ", iNumReligionsInCity)
         return iNumReligionsInCity
       end
 

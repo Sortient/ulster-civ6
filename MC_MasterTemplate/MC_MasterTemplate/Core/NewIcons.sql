@@ -18,7 +18,16 @@ VALUES	('ICON_ATLAS_SORTIENT_ULSTER',					22,	 		1,				1,					'ICON_ULSTER_22.dd
 		('ICON_ATLAS_SORTIENT_JOHN_HUME',				55,	 		1,				1,					'ICON_JOHN_HUME_55.dds'			),
 		('ICON_ATLAS_SORTIENT_JOHN_HUME',				64,			1,				1,					'ICON_JOHN_HUME_64.dds'			),
 		('ICON_ATLAS_SORTIENT_JOHN_HUME',				80,	 		1,				1,					'ICON_JOHN_HUME_80.dds'			),
-		('ICON_ATLAS_SORTIENT_JOHN_HUME',				256,	 	1,				1,					'ICON_JOHN_HUME_256.dds'			),
+		('ICON_ATLAS_SORTIENT_JOHN_HUME',				256,	 	1,				1,					'ICON_JOHN_HUME_256.dds'		),
+
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				32,	 		1,				1,					'ICON_HUGH_ONEILL_32.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				45,	 		1,				1,					'ICON_HUGH_ONEILL_45.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				48,	 		1,				1,					'ICON_HUGH_ONEILL_48.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				50,	 		1,				1,					'ICON_HUGH_ONEILL_50.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				55,	 		1,				1,					'ICON_HUGH_ONEILL_55.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				64,			1,				1,					'ICON_HUGH_ONEILL_64.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				80,	 		1,				1,					'ICON_HUGH_ONEILL_80.dds'			),
+		('ICON_ATLAS_SORTIENT_HUGH_ONEILL',				256,	 	1,				1,					'ICON_HUGH_ONEILL_256.dds'			),
 		
 		('ICON_ATLAS_SORTIENT_ULSTER_RIFLES',			22,			2,				1,					'UlsterRiflesAtlas22.dds'		),
 		('ICON_ATLAS_SORTIENT_ULSTER_RIFLES',			32,			2,				1,					'UlsterRiflesAtlas32.dds'		),
@@ -37,10 +46,10 @@ VALUES	('ICON_ATLAS_SORTIENT_ULSTER',					22,	 		1,				1,					'ICON_ULSTER_22.dd
 		('ICON_ATLAS_LINEN_MILL',			200,		1,				1,					'LinenMill200.dds'		),
 		('ICON_ATLAS_LINEN_MILL',			256,		1,				1,					'LinenMill256.dds'		);
 
-INSERT INTO IconDefinitions
-		(Name,														Atlas,									'Index'					)
+INSERT INTO IconDefinitions (Name,														Atlas,									'Index'					)
 VALUES	('ICON_CIVILIZATION_SORTIENT_ULSTER',					'ICON_ATLAS_SORTIENT_ULSTER',					0					),
 		('ICON_LEADER_SORTIENT_JOHN_HUME',						'ICON_ATLAS_SORTIENT_JOHN_HUME',				0					),
+		('ICON_LEADER_SORTIENT_HUGH_ONEILL',						'ICON_ATLAS_SORTIENT_HUGH_ONEILL',				0					),
 		('ICON_UNIT_SORTIENT_ULSTER_RIFLES_PORTRAIT',			'ICON_ATLAS_SORTIENT_ULSTER_RIFLES',			0					),
 		('ICON_UNIT_SORTIENT_ULSTER_RIFLES',					'ICON_ATLAS_SORTIENT_ULSTER_RIFLES',			1					),
 		('ICON_BUILDING_ULSTER_LINEN_MILL',							'ICON_ATLAS_LINEN_MILL',						0					);

@@ -1,8 +1,5 @@
-INSERT OR REPLACE INTO LocalizedText
-			(Language, Tag, Text)
-VALUES
-
-	('en_US',	'LOC_CIVILIZATION_SORTIENT_ULSTER_NAME',			'Ulster'			),
+INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
+VALUES	('en_US',	'LOC_CIVILIZATION_SORTIENT_ULSTER_NAME',			'Ulster'			),
 	('en_US',	'LOC_CIVILIZATION_SORTIENT_ULSTER_DESCRIPTION',	'Ulster Empire'	),
 	('en_US',	'LOC_CIVILIZATION_SORTIENT_ULSTER_ADJECTIVE',  	'Ulster'			),
 	('en_US',	'LOC_CIVILIZATION_ARMAGH_TEST_NAME',			'Sligo'			),
@@ -19,7 +16,7 @@ VALUES
 
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_NAME',				'Linen Mill'								),
 	('en_US',	'LOC_BUILDING_ULSTER_LINEN_MILL_DESCRIPTION',
-	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces. +1 [ICON_ENGINEER] Great Engineer point. International Trade Routes from this city provide +0.5 [ICON_PRODUCTION] Production and +0.5 [ICON_GOLD] Gold per luxury resource owned by Ulster.'	),
+	'Industrial Era building unique to Ulster. Cheaper than the Factory which it replaces. International Trade Routes from this city provide +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold per luxury resource owned by Ulster.'	),
 
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_NAME',	'Ulster Rifles'	),
 	('en_US',	'LOC_UNIT_SORTIENT_ULSTER_RIFLES_DESCRIPTION',	 
@@ -44,6 +41,8 @@ VALUES
 	('en_US',	'LOC_NAMED_RIVER_SHIMNA',					'Shimna River'			),
 	('en_US',	'LOC_NAMED_RIVER_SIX_MILE_WATER',			'Six Mile Water'		),
 
+	('en_US',	'LOC_NAMED_SEA_NORTH_CHANNEL_NAME',			'Irish Sea'		),
+
 
 	('en_US',	'LOC_NAMED_LAKE_STRANGFORD_LOUGH',			'Strangford Lough'		),
 	('en_US',	'LOC_NAMED_LAKE_LOUGH_NEAGH',				'Lough Erne'			),
@@ -66,29 +65,57 @@ VALUES
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_1',  'Belfast'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_2',  'Derry'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_3',  'Lisburn'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_4',  'Newtownards'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_4',  'Newtownards'),--
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_5',  'Coleraine'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_6',  'Bangor'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_ARMAGH',  'Armagh'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_7',  'Newry'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_8',  'Ballymena'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_8',  'Ballymena'),--
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_9',  'Carrickfergus'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_10',  'Antrim'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_11',  'Omagh'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_12',  'Enniskillen'),
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_13',  'Downpatrick'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_14',  'Larne'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_14',  'Larne'),--
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_15',  'Limavady'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_16',  'Banbridge'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_17',  'Portadown'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_18',  'Dungannon'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_16',  'Banbridge'),--
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_17',  'Portadown'),--
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_18',  'Dungannon'),--
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_19',  'Cookstown'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_20',  'Comber'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_21',  'Ballymoney'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_22',  'Magherafelt'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_20',  'Comber'),--
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_21',  'Ballymoney'),--
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_22',  'Magherafelt'),--
 	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_23',  'Newcastle'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_24',  'Eglinton'),
-	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_25',  'Carryduff'),
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_24',  'Eglinton'),--
+	('en_US',	'LOC_CITY_NAME_SORTIENT_ULSTER_25',  'Carryduff'),--
+
+	('en_US',   'LOC_ROSETTA_BELFAST_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Belfast'),
+    ('en_US',   'LOC_ROSETTA_DERRY_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Derry'),
+    ('en_US',   'LOC_ROSETTA_LISBURN_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Lisburn'),
+    ('en_US',   'LOC_ROSETTA_NEWTOWNARDS_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Newtownards'),
+    ('en_US',   'LOC_ROSETTA_COLERAINE_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Coleraine'),
+    ('en_US',   'LOC_ROSETTA_BANGOR_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Bangor'),
+    ('en_US',   'LOC_ROSETTA_ARMAGH_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Armagh'),
+    ('en_US',   'LOC_ROSETTA_NEWRY_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Newry'),
+    ('en_US',   'LOC_ROSETTA_BALLYMENA_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Ballymena'),
+    ('en_US',   'LOC_ROSETTA_CARRICKFERGUS_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Carrickfergus'),
+    ('en_US',   'LOC_ROSETTA_ANTRIM_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Antrim'),
+    ('en_US',   'LOC_ROSETTA_OMAGH_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Omagh'),
+    ('en_US',   'LOC_ROSETTA_ENNISKILLEN_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Enniskillen'),
+    ('en_US',   'LOC_ROSETTA_DOWNPATRICK_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Downpatrick'),
+    ('en_US',   'LOC_ROSETTA_LARNE_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Larne'),
+    ('en_US',   'LOC_ROSETTA_LIMAVADY_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Limavady'),
+    ('en_US',   'LOC_ROSETTA_BANBRIDGE_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Banbridge'),
+    ('en_US',   'LOC_ROSETTA_PORTADOWN_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Portadown'),
+    ('en_US',   'LOC_ROSETTA_DUNGANNON_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Dungannon'),
+    ('en_US',   'LOC_ROSETTA_COOKSTOWN_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Cookstown'),
+    ('en_US',   'LOC_ROSETTA_COMBER_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Comber'),
+    ('en_US',   'LOC_ROSETTA_BALLYMONEY_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Ballymoney'),
+    ('en_US',   'LOC_ROSETTA_MAGHERAFELT_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Magherafelt'),
+    ('en_US',   'LOC_ROSETTA_NEWCASTLE_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Newcastle'),
+    ('en_US',   'LOC_ROSETTA_EGLINTON_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Eglinton'),
+    ('en_US',   'LOC_ROSETTA_CARRYDUFF_XSCX_CIVILIZATION_SORTIENT_ULSTER',  'Carryduff'),
+
 	
 -----------------------------------------------
 -- Citizens
@@ -126,9 +153,9 @@ VALUES
 -----------------------------------------------
 
 	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_LOCATION',			'Europe'		),
-	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_SIZE',				'14,130 km2'	),
-	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_POPULATION',		'c. 1.9 million'		),
-	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_CAPITAL',			'Belfast'		),
+	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_SIZE',				'22,067 km2 (Province)'	),
+	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_POPULATION',		'c. 1.9 million (Northern Ireland)'		),
+	('en_US',	'LOC_CIVINFO_SORTIENT_ULSTER_CAPITAL',			'Belfast (Northern Ireland)'		),
 
 -----------------------------------------------
 -- Civilopedia

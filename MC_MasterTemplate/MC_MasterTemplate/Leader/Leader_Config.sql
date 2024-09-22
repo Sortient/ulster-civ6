@@ -43,3 +43,4 @@ VALUES	(
 		'LOC_BUILDING_ULSTER_LINEN_MILL_DESCRIPTION', -- Description
 		20 -- SortIndex
 		);
+

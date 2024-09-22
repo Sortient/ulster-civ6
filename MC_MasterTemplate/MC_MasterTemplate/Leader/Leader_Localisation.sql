@@ -26,7 +26,7 @@ VALUES
 -----------------------------------------------	
 
 	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_NAME',				'Good Friday Agreement'	),
-	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'Cannot declare Holy Wars. +10% [ICON_Science] Science and +10% [ICON_Culture] Culture in cities owned by John Hume for every religion present that he has not founded.'),
+	('en_US',	'LOC_TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT_DESCRIPTION',		'Cannot declare Holy Wars. Cities gain +10% [ICON_Science] Science and +10% [ICON_Culture] Culture for every religion present that is not his majority religion.'),
 	--Immune to the Recruit Partisans espionage mission. Cannot declare Holy Wars or start Inquisitions.'	),
 
 	
@@ -93,11 +93,11 @@ VALUES
 	
 	-- AI Rejects (ANY)
 	('en_US',	'LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'I apologize, but circumstances prevent me from hosting your delegation at this time. Perhaps another time?'	),
+	'I apologise, but circumstances prevent me from hosting your delegation at this time. Perhaps another time?'	),
 	
 	-- AI Requests (ANY)
 	('en_US',	'LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'I have sent a delegation to your lands, carrying some of our famous Fifteens along with the recipe for a delightful Ulster Fry. I hope you will receive them as appropriate.'	),
+	'I have sent a delegation to your lands, carrying some of our famous Fifteens along with the recipe for a tasty Ulster Fry.'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Open Borders
@@ -109,7 +109,7 @@ VALUES
 	
 	-- AI rejects from human (ANY)	
 	('en_US',	'LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SORTIENT_JOHN_HUME_ANY',
-	'I`m hesitant to open our borders fully, but perhaps we can find a compromise another time.'	),
+	'I`m reluctant to open our borders, but perhaps we can find a compromise another time.'	),
 	
 	-- AI requests from human (ANY)	
 	('en_US',	'LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SORTIENT_JOHN_HUME_ANY',
@@ -197,7 +197,7 @@ VALUES
 	
 	-- Positive AI response to human request (HAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SORTIENT_JOHN_HUME_HAPPY',
-	'I was unaware that you laid claim to such lands. Rest assured, I shall find other, better lands to build upon elsewhere.'	),
+	'I was unaware that you laid claim to such lands. Rest assured, I shall find other lands to build upon elsewhere.'	),
 	
 	-- Positive AI response to human request (UNHAPPY)
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SORTIENT_JOHN_HUME_UNHAPPY',
@@ -311,8 +311,10 @@ VALUES
 	('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_SORTIENT_JOHN_HUME_CHAPTER_HISTORY_PARA_4',
 	'Hume`s political career spanned decades, during which he served as a Member of Parliament in both the British House of Commons and the European Parliament. His dedication to his constituents and his unwavering pursuit of peace and social justice left an indelible mark on Northern Ireland`s political landscape. Hume`s legacy extends beyond his political achievements, inspiring generations of activists and peacemakers.'),
 	('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_SORTIENT_JOHN_HUME_CHAPTER_HISTORY_PARA_5',
-	'John Hume`s death in 2020 marked the end of an era in Northern Irish politics, but his legacy lives on. Hume`s unwavering commitment to peace, dialogue, and reconciliation continues to inspire and guide the ongoing efforts to build a more just and equitable society in Northern Ireland. And, in a poll conducted by Irish national broadcaster RT�, John Hume was voted as the greatest Irishman who ever lived.'),
+	'John Hume`s death in 2020 marked the end of an era in Northern Irish politics, but his legacy lives on. Hume`s unwavering commitment to peace, dialogue, and reconciliation continues to inspire and guide the ongoing efforts to build a more just and equitable society in Northern Ireland. And, in a poll conducted by Irish national broadcaster RTE, John Hume was voted as the greatest Irishman who ever lived.'),
 
 	('en_US',	'LOC_PEDIA_UNITS_PAGE_UNIT_SORTIENT_JOHN_HUME_UU_CHAPTER_HISTORY_PARA_1',  	
 	'The Royal Ulster Rifles, formed in 1921 from the Royal Irish Rifles, was a line infantry regiment of the British Army. With a history dating back to 1793, the regiment participated in various conflicts including both World Wars and the Korean War. The regiment recruited primarily from counties Antrim and Down, but also accepted volunteers from across Ireland. Following the partition of Ireland, it became the only remaining Irish infantry regiment within the British Army. In 1968, the Royal Ulster Rifles was amalgamated with other regiments to form the Royal Irish Rangers, and is part of the modern day Royal Irish Regiment. Today, the regiment`s legacy is preserved through museums and memorials that commemorate its service and sacrifices, most prominently outside Belfast City Hall.'	);
+
+
 

@@ -2,7 +2,7 @@
 
 INSERT INTO	Types
 		(Type,													Kind			)
-VALUES	('TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT',			'KIND_TRAIT'	);;
+VALUES	('TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMENT',			'KIND_TRAIT'	);
 
 
 INSERT INTO	Traits
@@ -35,7 +35,8 @@ VALUES	('LEADER_SORTIENT_JOHN_HUME',	'TRAIT_LEADER_SORTIENT_GOOD_FRIDAY_AGREEMEN
 		INSERT INTO Good_Friday_Agreement_Yields
 				(YieldType,				YieldShort)
 		VALUES	("YIELD_SCIENCE",		"SCIENCE"),
-				("YIELD_CULTURE",			"CULTURE");
+				("YIELD_CULTURE",			"CULTURE"),
+				("YIELD_DIPLOMATIC_FAVOR", "FAVOR");
 	-------------------------------------
 	-- TraitModifiers
 	-------------------------------------
@@ -165,5 +166,7 @@ VALUES (
 );
 
 INSERT INTO ModifierArguments(ModifierId, Name, Value)
-VALUES 	('TRAIT_SORTIENT_JOHN_HUME_NO_HOLY_WARS', 'Banned', 'true'),
+VALUES 	('TRAIT_SORTIENT_JOHN_HUME_NO_HOLY_WARS', 'Banned', '1'),
 		('TRAIT_SORTIENT_JOHN_HUME_NO_HOLY_WARS', 'DiplomaticActionType', 'DIPLOACTION_DECLARE_HOLY_WAR');
+
+
